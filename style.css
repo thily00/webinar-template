@@ -1,0 +1,93 @@
+body{
+    background-color: #ffffff;
+    margin-top: 2%;
+    height: auto;
+}
+.navB{
+    margin-bottom: 3%;
+}
+iframe{
+    border-radius: 14px;
+}
+.couperMicro{
+    background-color: #eaebec; /* Green */
+    border-radius: 50%;
+    height: auto;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.couper{
+    background-color: #fcc0c2;
+    border-radius: 50%;
+    height: auto;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px
+}
+.nabBmenu{
+    padding: 0px;
+    display: flex;
+    float: right !important;
+}
+.rdv{
+    margin-right: 20px !important; 
+}
+.centered{
+    margin: auto;
+    max-width: 200px;
+}
+.chat-container{
+    background-color: #eaebec;
+    height: 100%;
+    border-radius: 16px;
+}
+.messagebox{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.messagebox input {
+    width: 100%;
+    border: none;
+    margin:20px;
+    height: 50px;
+    border-radius: 16px;;
+    padding-left: 20px !important;
+}
+
+.messagebox button{
+    background-color: #eaebec;
+    border-radius: 50%;
+    height: auto;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px
+
+}
+.messagebox_intro{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 200;
+    color: gray;
+}
